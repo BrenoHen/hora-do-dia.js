@@ -6,45 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de exercício</title>
     <style>
-    body{
-    background: rgb(107, 109, 241);
-    font: normal 15pt Arial;
-}
+        body{
+            background: rgb(107, 109, 241);
+            font: normal 15pt Arial;
+        }
 
-header{
-    color: white;
-    text-align: center;
-}
+        header{
+            color: white;
+            text-align: center;
+        }
 
-section{
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.445);
-}
+        section{
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.445);
+        }
 
-footer{
-    color: white;
-    text-align: center;
-    font-style: italic;
-}
+        footer{
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
 
-#msg{
-    text-align: center;
-    padding-bottom: 10px;
-    font-size: bold;
-}
+        #msg{
+            text-align: center;
+            padding-bottom: 10px;
+            font-size: bold;
+            }
 
-#foto{
-    text-align: center;
-}
-#saud {
-    font: 30pt Arial;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 2px black;
-}
+        #foto{
+            text-align: center;
+        }
+        
+        #saud {
+            font: 30pt Arial;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 2px black;
+        }
     </style>
 </head>
 <body onload="carregar()">
